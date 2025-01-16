@@ -1,0 +1,18 @@
+.cb-daily-astro-container {
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cb-daily-astro-phrase {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.cb-daily-astro-phrase:last-child {
+    border-bottom: none;
+}

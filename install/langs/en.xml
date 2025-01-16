@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="en" flag="gb" title="English">
+	<string name="_cb_dailyastro"><![CDATA[DailyAstro]]></string>
+	<string name="_cb_dailyastro_adm_stg_cpt_type"><![CDATA[DailyAstro]]></string>
+	<string name="_cb_dailyastro_adm_stg_cpt_category_general"><![CDATA[General]]></string>
+	<string name="_cb_dailyastro_option_repeat_times"><![CDATA[Number of times to repeat the phrase]]></string>
+    <string name="_cb_dailyastro_phrase"><![CDATA[Welcome to DailyAstro! ]]></string>
+	<string name="_cb_dailyastro_page_block_title_manage"><![CDATA[Your Daily Astro]]></string>
+</resources>
+
