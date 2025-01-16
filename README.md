@@ -4,11 +4,11 @@
 Show custom daily astro message
 
 ## Features
-- Show custom daily astro message based on users data of birth.
+- Show custom daily astro message based on user's data of birth fetched from his profile.
 
 ## Installation
 1. Download the module
-2. Upload to your UNA CMS installation
+2. Upload to your UNA CMS application in './modules/clapback/' directory. If directory 'clapback' does not exist, create one.
 3. Install via UNA Studio
 
 ## Requirements
