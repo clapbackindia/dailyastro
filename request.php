@@ -11,6 +11,8 @@
 
 bx_import(BX_DIRECTORY_PATH_INC . "design.inc.php");
 
-BxDolRequest::processAsAction($GLOBALS['aModule'], $GLOBALS['aRequest']);
+check_logged();
+
+BxBaseModTextRequest::processAsAction($GLOBALS['aModule'], $GLOBALS['aRequest']);
 
 /** @} */

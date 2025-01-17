@@ -11,23 +11,12 @@
 
 bx_import('BxDolModuleDb');
 
-class CbDailyAstroDb extends BxDolModuleDb
+class CbDailyAstroDb extends BxBaseModGeneralDb
 {
     function __construct(&$oConfig) 
     {
         parent::__construct($oConfig);
     }
-
-    /**
-     * Get the daily astro message from the database
-     *
-     * @return string|null The daily astro message or null if not found
-     */
-    // public function getDailyAstroMessage()
-    // {
-    //     $sQuery = "SELECT message FROM `cb_daily_astro` WHERE `id` = 1 LIMIT 1";
-    //     return $this->getOne($sQuery);
-    // }
 }
 
 /** @} */

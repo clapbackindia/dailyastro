@@ -1,5 +1,5 @@
 -- Drop daily astro messages table
-DROP TABLE IF EXISTS `cb_daily_astro`;
+-- DROP TABLE IF EXISTS `cb_daily_astro`;
 
 -- Remove Page Builder block
 DELETE FROM `sys_pages_blocks` WHERE `module` = 'cb_dailyastro';

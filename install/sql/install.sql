@@ -1,14 +1,14 @@
 -- Create daily astro messages table
-CREATE TABLE IF NOT EXISTS `cb_daily_astro` (
-    `id` int(11) NOT NULL AUTO_INCREMENT,
-    `message` text NOT NULL,
-    `created` int(11) NOT NULL,
-    PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+-- CREATE TABLE IF NOT EXISTS `cb_daily_astro` (
+--     `id` int(11) NOT NULL AUTO_INCREMENT,
+--     `message` text NOT NULL,
+--     `created` int(11) NOT NULL,
+--     PRIMARY KEY (`id`)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Insert a default message
-INSERT INTO `cb_daily_astro` (`id`, `message`, `created`) VALUES
-(1, 'Welcome to Daily Astro!', UNIX_TIMESTAMP());
+-- -- Insert a default message
+-- INSERT INTO `cb_daily_astro` (`id`, `message`, `created`) VALUES
+-- (1, 'Welcome to Daily Astro!', UNIX_TIMESTAMP());
 
 -- Remove any existing blocks first
 DELETE FROM `sys_pages_blocks` WHERE `module` = 'cb_dailyastro';

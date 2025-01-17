@@ -44,15 +44,17 @@ $aConfig = array(
 	 */
 	'install' => array(
 		'execute_sql' => 1,
-		'update_languages' => 1,
+        'update_languages' => 1,
+        'clear_db_cache' => 1,
 	),
 	'uninstall' => array (
 		'execute_sql' => 1,
-		'update_languages' => 1,
+        'update_languages' => 1,
+        'clear_db_cache' => 1,
     ),
     'enable' => array(
         'execute_sql' => 1,
-        'recompile_global_paramaters' => 1,
+        'recompile_global_parameters' => 1,
         'clear_db_cache' => 1,
     ),
 	'enable_success' => array(
@@ -60,7 +62,7 @@ $aConfig = array(
     ),
     'disable' => array(
         'execute_sql' => 1,
-        'recompile_global_paramaters' => 1,
+        'recompile_global_parameters' => 1,
         'clear_db_cache' => 1,
     ),
 	'disable_failed' => array (
@@ -71,7 +73,7 @@ $aConfig = array(
 	 * Dependencies Section
 	 */
 	'dependencies' => array(
-		'sys_objects_page_blocks'
+		//'sys_objects_page_blocks'
 	),
 
 );

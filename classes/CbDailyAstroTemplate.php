@@ -21,13 +21,10 @@ class CbDailyAstroTemplate extends BxDolModuleTemplate
      * @param object $oConfig Configuration object for the module.
      * @param object $oDb Database object for the module.
      */
-	// function __construct(&$oConfig, &$oDb) 
-    // {
-	//     parent::__construct($oConfig, $oDb);
-    // }   
-    function __construct(&$oConfig, &$oDb = null) 
+    function __construct(&$oConfig, &$oDb) 
     {
 	    parent::__construct($oConfig, $oDb);
+        $this->addCss(['daily_astro.css']);
     } 
 }
 
