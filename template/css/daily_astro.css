@@ -1,9 +1,37 @@
 .cb-daily-astro-container {
-    padding: 1rem;
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(0, 120, 156);
+    padding: 1rem 1.5rem;
     background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.heading-h4 {
+    font-size: 16px;
+    font-weight: bold;;
+    color: rgb(0, 94, 122);
+    border-bottom: 1px dashed rgb(190, 203, 207);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cb-daily-astro-container img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    object-fit: contain;
+    float: left;
+}
+
+.cb-daily-astro-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .cb-daily-astro-phrase {
     margin: 0.5rem 0;

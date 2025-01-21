@@ -232,8 +232,11 @@ final class CbDailyAstroModule extends BxDolModule
             }
             // Fetch from API if not cached
             $message = $this->fetchHoroscopeFromApi($sign);
+            $astrosign = BX_DOL_URL_ROOT."/modules/clapback/dailyastro/template/images/astro-signs/".$sign.".svg";
             $message = sprintf(
-                            '<div class="cb-daily-astro-container">%s</div>', 
+                            '<div class="cb-daily-astro-container"><h4 class="heading-h4"><i class="fa fa-atom"></i> Daily Astro Scope</h4><img src="%s" alt="%s" />%s</div>',
+                            htmlspecialchars($astrosign, ENT_QUOTES, 'UTF-8'),
+                            htmlspecialchars($sign, ENT_QUOTES, 'UTF-8'),
                             htmlspecialchars($message, ENT_QUOTES, 'UTF-8')
                         );
             // Cache the new message
